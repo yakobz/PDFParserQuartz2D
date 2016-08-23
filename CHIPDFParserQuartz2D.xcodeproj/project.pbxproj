@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661AE1751D54913300D08539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AE1741D54913300D08539 /* AppDelegate.m */; };
+		661AE1781D54913300D08539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AE1771D54913300D08539 /* main.m */; };
+		661AE17A1D54913300D08539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661AE1791D54913300D08539 /* Assets.xcassets */; };
+		661AE17D1D54913300D08539 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661AE17B1D54913300D08539 /* MainMenu.xib */; };
+		661AE1861D54914E00D08539 /* CHIPDFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AE1851D54914E00D08539 /* CHIPDFParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		661AE1701D54913300D08539 /* CHIPDFParserQuartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHIPDFParserQuartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661AE1731D54913300D08539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		661AE1741D54913300D08539 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661AE1771D54913300D08539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661AE1791D54913300D08539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661AE17C1D54913300D08539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		661AE17E1D54913300D08539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661AE1841D54914E00D08539 /* CHIPDFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFParser.h; sourceTree = "<group>"; };
+		661AE1851D54914E00D08539 /* CHIPDFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661AE16D1D54913300D08539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661AE1671D54913200D08539 = {
+			isa = PBXGroup;
+			children = (
+				661AE1721D54913300D08539 /* CHIPDFParserQuartz2D */,
+				661AE1711D54913300D08539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661AE1711D54913300D08539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661AE1701D54913300D08539 /* CHIPDFParserQuartz2D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661AE1721D54913300D08539 /* CHIPDFParserQuartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				661AE1731D54913300D08539 /* AppDelegate.h */,
+				661AE1741D54913300D08539 /* AppDelegate.m */,
+				661AE1841D54914E00D08539 /* CHIPDFParser.h */,
+				661AE1851D54914E00D08539 /* CHIPDFParser.m */,
+				661AE1791D54913300D08539 /* Assets.xcassets */,
+				661AE17B1D54913300D08539 /* MainMenu.xib */,
+				661AE17E1D54913300D08539 /* Info.plist */,
+				661AE1761D54913300D08539 /* Supporting Files */,
+			);
+			path = CHIPDFParserQuartz2D;
+			sourceTree = "<group>";
+		};
+		661AE1761D54913300D08539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661AE1771D54913300D08539 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661AE16F1D54913300D08539 /* CHIPDFParserQuartz2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661AE1811D54913300D08539 /* Build configuration list for PBXNativeTarget "CHIPDFParserQuartz2D" */;
+			buildPhases = (
+				661AE16C1D54913300D08539 /* Sources */,
+				661AE16D1D54913300D08539 /* Frameworks */,
+				661AE16E1D54913300D08539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPDFParserQuartz2D;
+			productName = CHIPDFParserQuartz2D;
+			productReference = 661AE1701D54913300D08539 /* CHIPDFParserQuartz2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661AE1681D54913200D08539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CHISW;
+				TargetAttributes = {
+					661AE16F1D54913300D08539 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 661AE16B1D54913200D08539 /* Build configuration list for PBXProject "CHIPDFParserQuartz2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661AE1671D54913200D08539;
+			productRefGroup = 661AE1711D54913300D08539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661AE16F1D54913300D08539 /* CHIPDFParserQuartz2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661AE16E1D54913300D08539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661AE17A1D54913300D08539 /* Assets.xcassets in Resources */,
+				661AE17D1D54913300D08539 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661AE16C1D54913300D08539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661AE1861D54914E00D08539 /* CHIPDFParser.m in Sources */,
+				661AE1781D54913300D08539 /* main.m in Sources */,
+				661AE1751D54913300D08539 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661AE17B1D54913300D08539 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661AE17C1D54913300D08539 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661AE17F1D54913300D08539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		661AE1801D54913300D08539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		661AE1821D54913300D08539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CHIPDFParserQuartz2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chisw.CHIPDFParserQuartz2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		661AE1831D54913300D08539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CHIPDFParserQuartz2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chisw.CHIPDFParserQuartz2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661AE16B1D54913200D08539 /* Build configuration list for PBXProject "CHIPDFParserQuartz2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661AE17F1D54913300D08539 /* Debug */,
+				661AE1801D54913300D08539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661AE1811D54913300D08539 /* Build configuration list for PBXNativeTarget "CHIPDFParserQuartz2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661AE1821D54913300D08539 /* Debug */,
+				661AE1831D54913300D08539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661AE1681D54913200D08539 /* Project object */;
+}
